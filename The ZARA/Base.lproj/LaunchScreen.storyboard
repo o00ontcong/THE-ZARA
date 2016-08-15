@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="H2p-I6-NRG">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ck3-7a-SXR">
+                                <rect key="frame" x="107" y="201" width="106" height="106"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ck3-7a-SXR" secondAttribute="height" multiplier="1:1" id="CTH-ey-e01"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zara App" translatesAutoresizingMaskIntoConstraints="NO" id="TVG-3b-S5F">
+                                <rect key="frame" x="107" y="327" width="106" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="TVG-3b-S5F" secondAttribute="height" multiplier="53:12" id="Sy8-jL-DNs"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TVG-3b-S5F" firstAttribute="top" secondItem="ck3-7a-SXR" secondAttribute="bottom" constant="20" id="0oi-Y2-VKP"/>
+                            <constraint firstItem="H2p-I6-NRG" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="2ds-ZA-ln9"/>
+                            <constraint firstItem="TVG-3b-S5F" firstAttribute="width" secondItem="ck3-7a-SXR" secondAttribute="width" id="BrQ-DB-ksp"/>
+                            <constraint firstAttribute="trailing" secondItem="H2p-I6-NRG" secondAttribute="trailing" id="Cbn-AA-RyB"/>
+                            <constraint firstItem="ck3-7a-SXR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-30" id="OuT-YO-HJQ"/>
+                            <constraint firstItem="H2p-I6-NRG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TVP-bN-pAd"/>
+                            <constraint firstItem="TVG-3b-S5F" firstAttribute="centerX" secondItem="ck3-7a-SXR" secondAttribute="centerX" id="Ueh-O0-eed"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="H2p-I6-NRG" secondAttribute="bottom" id="b9X-Gk-erX"/>
+                            <constraint firstItem="ck3-7a-SXR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="boF-Fe-Nz1"/>
+                            <constraint firstItem="ck3-7a-SXR" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="1:3" id="fou-Bt-eja"/>
+                            <constraint firstItem="H2p-I6-NRG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="wrk-lh-ZLL"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2ds-ZA-ln9"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="750" height="1334"/>
+        <image name="Logo" width="192" height="192"/>
+        <image name="Zara App" width="189" height="45"/>
+    </resources>
+</document>

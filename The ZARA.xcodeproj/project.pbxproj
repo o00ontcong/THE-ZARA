@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040070B91D5B140B005585AF /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040070B81D5B140B005585AF /* ProfileViewController.swift */; };
+		040263361D4F307A00D94780 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040263351D4F307A00D94780 /* UploadViewController.swift */; };
+		040263381D4F351700D94780 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 040263371D4F351700D94780 /* GoogleService-Info.plist */; };
+		04121C641D48CBC40037540B /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04121C631D48CBC40037540B /* CustomViewController.swift */; };
+		04121C661D48CC4A0037540B /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04121C651D48CC490037540B /* CustomCollectionViewCell.swift */; };
+		04430C171D589A0900342CC0 /* ShippingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04430C161D589A0900342CC0 /* ShippingInfoViewController.swift */; };
+		04430C191D589A2400342CC0 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04430C181D589A2400342CC0 /* PaymentViewController.swift */; };
+		04430C1B1D589A3D00342CC0 /* YourCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04430C1A1D589A3D00342CC0 /* YourCartViewController.swift */; };
+		0449F0671D60BFB200BAB1F4 /* DownloadImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449F0661D60BFB200BAB1F4 /* DownloadImageOperation.swift */; };
+		04820E6B1D5045F20092A43A /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04820E6A1D5045F20092A43A /* Product.swift */; };
+		04858E131D5D6EDE0087CB76 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04858E121D5D6EDE0087CB76 /* SignUpViewController.swift */; };
+		04858E151D5DA3CD0087CB76 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04858E141D5DA3CD0087CB76 /* SignInViewController.swift */; };
+		04867F951D5AB7F500642A7C /* YourCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04867F931D5AB7F500642A7C /* YourCartTableViewCell.swift */; };
+		04867F961D5AB7F500642A7C /* YourCartTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04867F941D5AB7F500642A7C /* YourCartTableViewCell.xib */; };
+		048804781D47CED800FBD7D8 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048804771D47CED800FBD7D8 /* ContainerViewController.swift */; };
+		04C0C2E41D618070004340B0 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2E31D618070004340B0 /* StoreViewController.swift */; };
+		04C0C2E61D618D02004340B0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C0C2E51D618D02004340B0 /* CoreLocation.framework */; };
+		04C0C2E81D618F74004340B0 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2E71D618F74004340B0 /* SearchResultsController.swift */; };
+		04C0C2F31D619E52004340B0 /* DYAlertPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2F21D619E52004340B0 /* DYAlertPickView.m */; };
+		04C0C2F51D61B14C004340B0 /* MapTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C0C2F41D61B14C004340B0 /* MapTasks.swift */; };
+		04DA0B7E1D5EC3C80074117B /* ExtensionUIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA0B7D1D5EC3C80074117B /* ExtensionUIImage.swift */; };
+		04EAEE4D1D3BE10600D0B4FC /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EAEE4C1D3BE10600D0B4FC /* StartViewController.swift */; };
+		04EFBCFB1D5B6F670000FBC7 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EFBCFA1D5B6F670000FBC7 /* LoadingState.swift */; };
+		04FF2C7D1D50BB8800C17B7A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF2C7C1D50BB8800C17B7A /* PreviewViewController.swift */; };
+		04FFD0A81D38F9FF0080B1D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFD0A71D38F9FF0080B1D0 /* AppDelegate.swift */; };
+		04FFD0AD1D38F9FF0080B1D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFD0AB1D38F9FF0080B1D0 /* Main.storyboard */; };
+		04FFD0AF1D38F9FF0080B1D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FFD0AE1D38F9FF0080B1D0 /* Assets.xcassets */; };
+		04FFD0B21D38F9FF0080B1D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FFD0B01D38F9FF0080B1D0 /* LaunchScreen.storyboard */; };
+		04FFD0BF1D39230B0080B1D0 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFD0BE1D39230B0080B1D0 /* WalkthroughViewController.swift */; };
+		04FFD0C11D39241A0080B1D0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFD0C01D39241A0080B1D0 /* HomeViewController.swift */; };
+		04FFD0C31D3925250080B1D0 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FFD0C21D3925250080B1D0 /* PageViewController.swift */; };
+		C89E9FC8F8AEF4DC51EEDF12 /* Pods_The_ZARA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 197F0B364E4FE40B03E309D0 /* Pods_The_ZARA.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040070B81D5B140B005585AF /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		040263351D4F307A00D94780 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		040263371D4F351700D94780 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04121C631D48CBC40037540B /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		04121C651D48CC490037540B /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		04430C161D589A0900342CC0 /* ShippingInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShippingInfoViewController.swift; sourceTree = "<group>"; };
+		04430C181D589A2400342CC0 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		04430C1A1D589A3D00342CC0 /* YourCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourCartViewController.swift; sourceTree = "<group>"; };
+		0449F0661D60BFB200BAB1F4 /* DownloadImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImageOperation.swift; sourceTree = "<group>"; };
+		04820E6A1D5045F20092A43A /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		04858E121D5D6EDE0087CB76 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		04858E141D5DA3CD0087CB76 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		04867F931D5AB7F500642A7C /* YourCartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourCartTableViewCell.swift; sourceTree = "<group>"; };
+		04867F941D5AB7F500642A7C /* YourCartTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YourCartTableViewCell.xib; sourceTree = "<group>"; };
+		048804771D47CED800FBD7D8 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		04C0C2E31D618070004340B0 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		04C0C2E51D618D02004340B0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		04C0C2E71D618F74004340B0 /* SearchResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
+		04C0C2F01D619E52004340B0 /* The ZARA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "The ZARA-Bridging-Header.h"; sourceTree = "<group>"; };
+		04C0C2F11D619E52004340B0 /* DYAlertPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYAlertPickView.h; sourceTree = "<group>"; };
+		04C0C2F21D619E52004340B0 /* DYAlertPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYAlertPickView.m; sourceTree = "<group>"; };
+		04C0C2F41D61B14C004340B0 /* MapTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTasks.swift; sourceTree = "<group>"; };
+		04DA0B7D1D5EC3C80074117B /* ExtensionUIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIImage.swift; sourceTree = "<group>"; };
+		04EAEE4C1D3BE10600D0B4FC /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		04EFBCFA1D5B6F670000FBC7 /* LoadingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		04FF2C7C1D50BB8800C17B7A /* PreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		04FFD0A41D38F9FF0080B1D0 /* The ZARA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The ZARA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FFD0A71D38F9FF0080B1D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04FFD0AC1D38F9FF0080B1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FFD0AE1D38F9FF0080B1D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04FFD0B11D38F9FF0080B1D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04FFD0B31D38F9FF0080B1D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FFD0BE1D39230B0080B1D0 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		04FFD0C01D39241A0080B1D0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		04FFD0C21D3925250080B1D0 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		127A855E930646FEE8EBD2DF /* Pods-The ZARA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The ZARA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-The ZARA/Pods-The ZARA.debug.xcconfig"; sourceTree = "<group>"; };
+		197F0B364E4FE40B03E309D0 /* Pods_The_ZARA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_ZARA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A1777CEE47D0FF221BDFFC7 /* Pods-The ZARA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The ZARA.release.xcconfig"; path = "Pods/Target Support Files/Pods-The ZARA/Pods-The ZARA.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FFD0A11D38F9FF0080B1D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C0C2E61D618D02004340B0 /* CoreLocation.framework in Frameworks */,
+				C89E9FC8F8AEF4DC51EEDF12 /* Pods_The_ZARA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003151881324DED2C4AEA1D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C0C2E51D618D02004340B0 /* CoreLocation.framework */,
+				197F0B364E4FE40B03E309D0 /* Pods_The_ZARA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04430C121D58987B00342CC0 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				04430C161D589A0900342CC0 /* ShippingInfoViewController.swift */,
+				04430C181D589A2400342CC0 /* PaymentViewController.swift */,
+				04430C1A1D589A3D00342CC0 /* YourCartViewController.swift */,
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		04430C131D58989F00342CC0 /* Catalog */ = {
+			isa = PBXGroup;
+			children = (
+				04FFD0C01D39241A0080B1D0 /* HomeViewController.swift */,
+				048804771D47CED800FBD7D8 /* ContainerViewController.swift */,
+				04121C631D48CBC40037540B /* CustomViewController.swift */,
+				04FF2C7C1D50BB8800C17B7A /* PreviewViewController.swift */,
+			);
+			name = Catalog;
+			sourceTree = "<group>";
+		};
+		04BB536B1D3C571300A3DB9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				04121C651D48CC490037540B /* CustomCollectionViewCell.swift */,
+				04867F931D5AB7F500642A7C /* YourCartTableViewCell.swift */,
+				04867F941D5AB7F500642A7C /* YourCartTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		04C0C2E91D619E06004340B0 /* DYAlertPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				04C0C2F11D619E52004340B0 /* DYAlertPickView.h */,
+				04C0C2F21D619E52004340B0 /* DYAlertPickView.m */,
+				04C0C2F01D619E52004340B0 /* The ZARA-Bridging-Header.h */,
+			);
+			path = DYAlertPickerView;
+			sourceTree = "<group>";
+		};
+		04D8B3601D5B13480086DDA8 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				04C0C2E31D618070004340B0 /* StoreViewController.swift */,
+			);
+			name = Stores;
+			sourceTree = "<group>";
+		};
+		04D8B3611D5B13960086DDA8 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				040070B81D5B140B005585AF /* ProfileViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		04FFD09B1D38F9FF0080B1D0 = {
+			isa = PBXGroup;
+			children = (
+				04FFD0A61D38F9FF0080B1D0 /* The ZARA */,
+				04FFD0A51D38F9FF0080B1D0 /* Products */,
+				432E97D78664BE8E557B8D5D /* Pods */,
+				003151881324DED2C4AEA1D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04FFD0A51D38F9FF0080B1D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FFD0A41D38F9FF0080B1D0 /* The ZARA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FFD0A61D38F9FF0080B1D0 /* The ZARA */ = {
+			isa = PBXGroup;
+			children = (
+				04FFD0B91D3922730080B1D0 /* Controllers */,
+				04BB536B1D3C571300A3DB9A /* Cells */,
+				04FFD0BA1D3922730080B1D0 /* Helpers */,
+				04FFD0BB1D3922730080B1D0 /* Models */,
+				04FFD0A71D38F9FF0080B1D0 /* AppDelegate.swift */,
+				04FFD0AB1D38F9FF0080B1D0 /* Main.storyboard */,
+				04FFD0AE1D38F9FF0080B1D0 /* Assets.xcassets */,
+				04FFD0B01D38F9FF0080B1D0 /* LaunchScreen.storyboard */,
+				04FFD0B31D38F9FF0080B1D0 /* Info.plist */,
+				040263371D4F351700D94780 /* GoogleService-Info.plist */,
+			);
+			path = "The ZARA";
+			sourceTree = "<group>";
+		};
+		04FFD0B91D3922730080B1D0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04430C131D58989F00342CC0 /* Catalog */,
+				04430C121D58987B00342CC0 /* Order */,
+				04D8B3601D5B13480086DDA8 /* Stores */,
+				04D8B3611D5B13960086DDA8 /* Profile */,
+				04FFD0BE1D39230B0080B1D0 /* WalkthroughViewController.swift */,
+				04FFD0C21D3925250080B1D0 /* PageViewController.swift */,
+				04EAEE4C1D3BE10600D0B4FC /* StartViewController.swift */,
+				040263351D4F307A00D94780 /* UploadViewController.swift */,
+				04858E121D5D6EDE0087CB76 /* SignUpViewController.swift */,
+				04858E141D5DA3CD0087CB76 /* SignInViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04FFD0BA1D3922730080B1D0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				04C0C2F41D61B14C004340B0 /* MapTasks.swift */,
+				04C0C2E91D619E06004340B0 /* DYAlertPickerView */,
+				04C0C2E71D618F74004340B0 /* SearchResultsController.swift */,
+				04EFBCFA1D5B6F670000FBC7 /* LoadingState.swift */,
+				04DA0B7D1D5EC3C80074117B /* ExtensionUIImage.swift */,
+				0449F0661D60BFB200BAB1F4 /* DownloadImageOperation.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04FFD0BB1D3922730080B1D0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04820E6A1D5045F20092A43A /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		432E97D78664BE8E557B8D5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				127A855E930646FEE8EBD2DF /* Pods-The ZARA.debug.xcconfig */,
+				7A1777CEE47D0FF221BDFFC7 /* Pods-The ZARA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FFD0A31D38F9FF0080B1D0 /* The ZARA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FFD0B61D38F9FF0080B1D0 /* Build configuration list for PBXNativeTarget "The ZARA" */;
+			buildPhases = (
+				7DB9C0A053132AD7B333DA81 /* 📦 Check Pods Manifest.lock */,
+				04FFD0A01D38F9FF0080B1D0 /* Sources */,
+				04FFD0A11D38F9FF0080B1D0 /* Frameworks */,
+				04FFD0A21D38F9FF0080B1D0 /* Resources */,
+				BE88DA2BB7C3C0557FA88173 /* 📦 Embed Pods Frameworks */,
+				B6C02859E72E161A01C31AE9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The ZARA";
+			productName = "The ZARA";
+			productReference = 04FFD0A41D38F9FF0080B1D0 /* The ZARA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FFD09C1D38F9FF0080B1D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = o00ontcong;
+				TargetAttributes = {
+					04FFD0A31D38F9FF0080B1D0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P3DW42E4PH;
+					};
+				};
+			};
+			buildConfigurationList = 04FFD09F1D38F9FF0080B1D0 /* Build configuration list for PBXProject "The ZARA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FFD09B1D38F9FF0080B1D0;
+			productRefGroup = 04FFD0A51D38F9FF0080B1D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FFD0A31D38F9FF0080B1D0 /* The ZARA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FFD0A21D38F9FF0080B1D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FFD0B21D38F9FF0080B1D0 /* LaunchScreen.storyboard in Resources */,
+				04867F961D5AB7F500642A7C /* YourCartTableViewCell.xib in Resources */,
+				040263381D4F351700D94780 /* GoogleService-Info.plist in Resources */,
+				04FFD0AF1D38F9FF0080B1D0 /* Assets.xcassets in Resources */,
+				04FFD0AD1D38F9FF0080B1D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DB9C0A053132AD7B333DA81 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6C02859E72E161A01C31AE9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The ZARA/Pods-The ZARA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE88DA2BB7C3C0557FA88173 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-The ZARA/Pods-The ZARA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FFD0A01D38F9FF0080B1D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EAEE4D1D3BE10600D0B4FC /* StartViewController.swift in Sources */,
+				04EFBCFB1D5B6F670000FBC7 /* LoadingState.swift in Sources */,
+				04C0C2E41D618070004340B0 /* StoreViewController.swift in Sources */,
+				04FFD0A81D38F9FF0080B1D0 /* AppDelegate.swift in Sources */,
+				04430C1B1D589A3D00342CC0 /* YourCartViewController.swift in Sources */,
+				04FFD0BF1D39230B0080B1D0 /* WalkthroughViewController.swift in Sources */,
+				04FFD0C11D39241A0080B1D0 /* HomeViewController.swift in Sources */,
+				04858E131D5D6EDE0087CB76 /* SignUpViewController.swift in Sources */,
+				04FF2C7D1D50BB8800C17B7A /* PreviewViewController.swift in Sources */,
+				040070B91D5B140B005585AF /* ProfileViewController.swift in Sources */,
+				04C0C2E81D618F74004340B0 /* SearchResultsController.swift in Sources */,
+				04C0C2F51D61B14C004340B0 /* MapTasks.swift in Sources */,
+				04C0C2F31D619E52004340B0 /* DYAlertPickView.m in Sources */,
+				04858E151D5DA3CD0087CB76 /* SignInViewController.swift in Sources */,
+				040263361D4F307A00D94780 /* UploadViewController.swift in Sources */,
+				04DA0B7E1D5EC3C80074117B /* ExtensionUIImage.swift in Sources */,
+				04121C641D48CBC40037540B /* CustomViewController.swift in Sources */,
+				04867F951D5AB7F500642A7C /* YourCartTableViewCell.swift in Sources */,
+				04430C191D589A2400342CC0 /* PaymentViewController.swift in Sources */,
+				04430C171D589A0900342CC0 /* ShippingInfoViewController.swift in Sources */,
+				048804781D47CED800FBD7D8 /* ContainerViewController.swift in Sources */,
+				0449F0671D60BFB200BAB1F4 /* DownloadImageOperation.swift in Sources */,
+				04820E6B1D5045F20092A43A /* Product.swift in Sources */,
+				04FFD0C31D3925250080B1D0 /* PageViewController.swift in Sources */,
+				04121C661D48CC4A0037540B /* CustomCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04FFD0AB1D38F9FF0080B1D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FFD0AC1D38F9FF0080B1D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FFD0B01D38F9FF0080B1D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FFD0B11D38F9FF0080B1D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FFD0B41D38F9FF0080B1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FFD0B51D38F9FF0080B1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FFD0B71D38F9FF0080B1D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127A855E930646FEE8EBD2DF /* Pods-The ZARA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "The ZARA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "o00ontcong.The-ZARA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The ZARA/Helpers/DYAlertPickerView/The ZARA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04FFD0B81D38F9FF0080B1D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1777CEE47D0FF221BDFFC7 /* Pods-The ZARA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "The ZARA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "o00ontcong.The-ZARA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "The ZARA/Helpers/DYAlertPickerView/The ZARA-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FFD09F1D38F9FF0080B1D0 /* Build configuration list for PBXProject "The ZARA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFD0B41D38F9FF0080B1D0 /* Debug */,
+				04FFD0B51D38F9FF0080B1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FFD0B61D38F9FF0080B1D0 /* Build configuration list for PBXNativeTarget "The ZARA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FFD0B71D38F9FF0080B1D0 /* Debug */,
+				04FFD0B81D38F9FF0080B1D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04FFD09C1D38F9FF0080B1D0 /* Project object */;
+}
