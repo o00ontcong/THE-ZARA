@@ -25,7 +25,28 @@ class PreviewViewController: UIViewController {
     
     @IBAction func abtnAdd(sender: AnyObject) {
         let alert = UIAlertController(title: "Notification", message: "Are you sure ?", preferredStyle: .Alert)
-        let ok = UIAlertAction(title: "YES", style: .Default, handler: nil)
+        let ok = UIAlertAction(title: "YES", style: .Default) { (snap) in
+            var arrayUrls = [String:String]()
+
+            for i in 0...self.myProduct.urls.count - 1{
+                arrayUrls["url\(i + 1)"] = self.myProduct.urls[i]
+            }
+            let productInfo: [String:AnyObject] = [
+                "name" : self.myProduct.name,
+                "price" : self.myProduct.price,
+                "urls" : arrayUrls
+            ]
+            
+            self.database.child("SHOPCART").child(self.myProduct.id).setValue(productInfo, withCompletionBlock: { (error , data) in
+                if error != nil {
+                    print(error)
+                } else {
+                    print("Success")
+                }
+                
+            })
+        }
+
         let cancel = UIAlertAction(title: "NO", style: .Cancel, handler: nil)
         alert.addAction(ok)
         alert.addAction(cancel)
@@ -51,13 +72,19 @@ class PreviewViewController: UIViewController {
         let height = CGRectGetHeight(viewFrame.bounds)
         scrollView.contentSize.width = width * CGFloat(myProduct.urls.count)
         for i in 0...myProduct.urls.count - 1{
-            let myRect = CGRectMake(width * CGFloat(i), 0, width, height)
-            let url = NSURL(string: myProduct.urls[i])
-            let data = NSData(contentsOfURL: url!)
-            let image = UIImage(data: data!)
-            let imageView = UIImageView(frame: myRect)
-            imageView.image = image
-            self.scrollView.addSubview(imageView)
+            
+            let queue = dispatch_queue_create("priview product", DISPATCH_QUEUE_CONCURRENT)
+            dispatch_async(queue, {
+                let myRect = CGRectMake(width * CGFloat(i), 0, width, height)
+                let url = NSURL(string: self.myProduct.urls[i])
+                let data = NSData(contentsOfURL: url!)
+                let image = UIImage(data: data!)
+                let imageView = UIImageView(frame: myRect)
+                imageView.image = image
+                dispatch_async(dispatch_get_main_queue(), {
+                    self.scrollView.addSubview(imageView)
+                })
+            })
         }
     }
     
